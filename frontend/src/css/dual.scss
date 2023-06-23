@@ -1,0 +1,33 @@
+.dual_neg{
+  background-color: rgb(134, 112, 112);
+  color: black;
+  border: none;
+  padding: 1px 3px;
+  margin: 2px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dual_pos{
+  background-color: rgb(215, 215, 215);
+  color: #5d5d5d;
+  border: none;
+  padding: 1px 3px;
+  margin: 2px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dual_neg:hover{
+  cursor: pointer;
+  color: wheat;
+}
+
+.dual_pos:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.dual_neg:active, .dual_pos:active{
+  cursor: wait;
+}

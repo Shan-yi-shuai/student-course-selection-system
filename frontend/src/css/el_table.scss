@@ -1,0 +1,36 @@
+.el-table {
+  font-size: 15px;
+  padding: 5px 22px 22px;
+  border: none;
+  .el-form-item {
+    padding-left: 50px;	 
+    margin: 0;
+    label {	
+      font-size: 15px;
+      line-height: 0;
+      padding-top: -1px;
+    }
+  }
+
+  ::v-deep .el-table__header th{
+    color: rgb(80, 80, 80);
+    background-color: rgb(189, 219, 255);
+  }
+
+  ::v-deep .el-table__body td {
+    background-color: #f6fdff;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    color: black;
+  }
+
+  ::v-deep .el-table__body tr {
+    background-color: #f6fdff;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    color: black;
+    border-color: wheat;
+  }
+}

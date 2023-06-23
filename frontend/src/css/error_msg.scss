@@ -1,0 +1,18 @@
+.ErrorMsg{
+    font-size: 10px;
+    color: red;
+    border: none;
+    text-align: left;
+}
+
+//unused
+.ErrorMsg:hover{
+    color: darkred;
+    cursor: pointer;
+}
+
+//unused
+.SuccessMsg{
+    font-size: 10px;
+    color: green;
+}

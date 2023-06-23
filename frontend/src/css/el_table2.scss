@@ -1,0 +1,37 @@
+.table-course{
+  border: none;
+  padding: 1px 1px !important;
+  ul {
+    list-style: none;
+  }
+  .el-input {
+    background-color: rgba(56, 104, 235);
+    padding: 1px 1px;
+  }
+
+  ::v-deep .el-table__header th{
+    color: rgb(80, 80, 80);
+    background-color: rgb(189, 219, 255);
+    text-align: center;
+  }
+  
+  ::v-deep .el-table__body td {
+    background-color: #f6fdff;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    //text-align: center;
+    color: black;
+  }
+  
+  ::v-deep .el-table__body tr {
+    background-color: #f6fdff;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    color: black;
+    border-color: wheat;
+  }
+}
+  
+  

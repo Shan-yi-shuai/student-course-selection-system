@@ -1,0 +1,57 @@
+.BasicInformation{
+  width:500px;
+  height:50px;
+  padding: 5px 10px;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  justify-content: center;
+  display: flex;
+  // border: 1px solid; // for debug
+  margin-top: 12px;
+  margin-bottom: 4px;
+  border: none; // practical use
+
+  .BasicInfo_name{
+    font-weight: bold;
+    width: 120px;
+    float: left;
+    line-height: 40px;
+    text-align: left;
+    //border: 1px solid;
+  }
+
+  .BasicInfo_input{
+    width: 200px;
+    //border: 1px solid beige; // for debug
+    border: none; // practical use
+    padding-left: 10px;
+    // text-align: center;
+    // vertical-align: middle;
+    height: 40px;
+  }
+  .BasicInfo_input  input{
+    width: 150px;
+    height: 40px;
+    float: left;
+    // display: inline-block;
+    font-size: 14pt;
+  }
+  .BasicInfo_input  el-input-number{
+    width: 150px;
+    height: 40px;
+    float: left;
+    // display: inline-block;
+    font-size: 18pt;
+  }
+
+  .ErrorMsg{
+    width: 160px;
+    //border: 1px solid beige; // for debug
+    border: none; // practical use
+    text-align: left;
+    font-size:9pt;
+    height: 40px;
+  }
+}
